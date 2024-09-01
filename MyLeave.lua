@@ -86,7 +86,7 @@ function leave_zone()
 
 
 	-- HTMB & Odyssey
-	elseif T{298}:contains (zone) then
+	elseif T{279, 298}:contains (zone) then
 		windower.send_command('Input /item "Moglophone" <me>')
 		windower.send_command('Input /item "Moglophone II" <me>')
 		windower.send_command('Input /item "V. Con. Shard" <me>')
